@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2022-11-06T08:47:52.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" version="20.5.1" etag="n17mbDSItfGQiPXtfuIK" type="github"><diagram id="Qh1MP1uJi68NOseYOob3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-06T08:58:20.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="0l5ElStIqLT5z3neS7qq" version="20.5.1" type="github">
+  <diagram id="Qh1MP1uJi68NOseYOob3" name="Page-1">
+    <mxGraphModel dx="390" dy="212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lIPoM-DWAkw61tmXXipq-5" value="Social Media App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="460" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lIPoM-DWAkw61tmXXipq-7" value="Sign" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="240" y="50" width="236" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lIPoM-DWAkw61tmXXipq-6" value="Sign In" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIPoM-DWAkw61tmXXipq-7">
+          <mxGeometry x="20" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIPoM-DWAkw61tmXXipq-8" value="Sign Up" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIPoM-DWAkw61tmXXipq-7">
+          <mxGeometry x="20" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIPoM-DWAkw61tmXXipq-9" value="Forgot Password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="lIPoM-DWAkw61tmXXipq-7">
+          <mxGeometry x="106" y="40" width="74" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIPoM-DWAkw61tmXXipq-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lIPoM-DWAkw61tmXXipq-7" source="lIPoM-DWAkw61tmXXipq-6" target="lIPoM-DWAkw61tmXXipq-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="350" as="sourcePoint" />
+            <mxPoint x="170" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIPoM-DWAkw61tmXXipq-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lIPoM-DWAkw61tmXXipq-5" target="lIPoM-DWAkw61tmXXipq-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="410" as="sourcePoint" />
+            <mxPoint x="400" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="515" />
+              <mxPoint x="180" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
