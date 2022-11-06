@@ -26,6 +26,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    // Enabling View Binding : a feature that allows you to more easily write code that interface with views
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -41,4 +45,14 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:23.0.5' // add firebase messaging
     implementation 'com.google.firebase:firebase-firestore:21.4.0' // add firebase fire store
 
+    // Scalable Size Uni (support for different screen sizes)
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'  //SDP - a scalable size unit for screen
+    implementation 'com.intuit.ssp:ssp-android:1.0.6' //SSP - a scalable size unit for text
+
+    // Rounded ImageView
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
 }
