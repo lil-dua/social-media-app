@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-06T12:47:38.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="LP2XY8K-qB_haoypdZEu" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-06T12:51:55.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="JjBh4scKUunhvzq0wB-D" version="20.5.2" type="github">
   <diagram id="Qh1MP1uJi68NOseYOob3" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,22 +7,22 @@
         <mxCell id="lIPoM-DWAkw61tmXXipq-5" value="Social Media App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="340" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="lIPoM-DWAkw61tmXXipq-7" value="Sign" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="240" y="50" width="236" height="160" as="geometry" />
+        <mxCell id="lIPoM-DWAkw61tmXXipq-7" value="Sign In" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="230" y="50" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="lIPoM-DWAkw61tmXXipq-6" value="Sign In" style="rounded=0;whiteSpace=wrap;html=1;" parent="lIPoM-DWAkw61tmXXipq-7" vertex="1">
-          <mxGeometry x="20" y="40" width="70" height="40" as="geometry" />
+          <mxGeometry x="10" y="60" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lIPoM-DWAkw61tmXXipq-8" value="Sign Up" style="rounded=0;whiteSpace=wrap;html=1;" parent="lIPoM-DWAkw61tmXXipq-7" vertex="1">
-          <mxGeometry x="120" y="40" width="80" height="40" as="geometry" />
+          <mxGeometry x="130" y="40" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lIPoM-DWAkw61tmXXipq-9" value="Forgot Password" style="rounded=0;whiteSpace=wrap;html=1;" parent="lIPoM-DWAkw61tmXXipq-7" vertex="1">
-          <mxGeometry x="18" y="100" width="74" height="40" as="geometry" />
+          <mxGeometry x="133" y="110" width="74" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lIPoM-DWAkw61tmXXipq-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="lIPoM-DWAkw61tmXXipq-7" source="lIPoM-DWAkw61tmXXipq-6" target="lIPoM-DWAkw61tmXXipq-9" edge="1">
+        <mxCell id="bIeHivU2evzcSEwSjEWl-54" value="" style="endArrow=classic;html=1;rounded=0;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="lIPoM-DWAkw61tmXXipq-7" source="lIPoM-DWAkw61tmXXipq-6" target="lIPoM-DWAkw61tmXXipq-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="350" as="sourcePoint" />
-            <mxPoint x="170" y="300" as="targetPoint" />
+            <mxPoint x="90" y="90" as="sourcePoint" />
+            <mxPoint x="140" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lIPoM-DWAkw61tmXXipq-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lIPoM-DWAkw61tmXXipq-5" target="lIPoM-DWAkw61tmXXipq-7" edge="1">
@@ -155,6 +155,12 @@
         <mxCell id="bIeHivU2evzcSEwSjEWl-51" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;3&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lIPoM-DWAkw61tmXXipq-19">
           <mxGeometry x="-0.6599" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bIeHivU2evzcSEwSjEWl-53" value="" style="endArrow=classic;html=1;rounded=0;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lIPoM-DWAkw61tmXXipq-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="130" as="sourcePoint" />
+            <mxPoint x="450" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
