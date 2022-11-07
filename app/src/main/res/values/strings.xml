@@ -13,4 +13,9 @@
     <string name="student_id">Student ID</string>
     <string name="kma_social_media">KMA SOCIAL MEDIA</string>
     <string name="recent_conversations">Recent Conversations</string>
+    <string name="setting">Setting</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="create_a_new_post">Create a new post</string>
 </resources>

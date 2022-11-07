@@ -3,8 +3,10 @@ package tech.demoproject.social_media_app.activities;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TabLayout tabLayout;
     private ViewPager2 viewPager2;
+    private FloatingActionButton floatingActionButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +26,17 @@ public class MainActivity extends AppCompatActivity {
 
         init();
         setup();
+        setListeners();
     }
+
+    private void setListeners() {
+        floatingActionButton.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),NewPostActivity.class)));
+    }
+
     private void init() {
         tabLayout = findViewById(R.id.tabLayout);
         viewPager2 = findViewById(R.id.viewPager2);
+        floatingActionButton = findViewById(R.id.fabNewPost);
 
     }
     private void setup() {

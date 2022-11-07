@@ -24,12 +24,15 @@
         </activity>
         <activity
             android:name=".activities.SignUpActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".activities.MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".activities.ConversationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NewPostActivity"
             android:exported="false"/>
     </application>
 

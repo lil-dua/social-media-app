@@ -24,7 +24,6 @@ public class Fragment_Home extends Fragment {
 
     private View view;
     private AppCompatImageView imageViewSignOut,imageViewChat;
-    private TextView txtUserName;
     private RecyclerView recyclerView;
     @Nullable
     @Override
@@ -39,7 +38,6 @@ public class Fragment_Home extends Fragment {
     private void init(){
         imageViewSignOut = view.findViewById(R.id.imageSignOut);
         imageViewChat = view.findViewById(R.id.imageChat);
-        txtUserName = view.findViewById(R.id.textName);
         recyclerView = view.findViewById(R.id.newsfeedRecyclerView);
     }
     private void setListeners() {
