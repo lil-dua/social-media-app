@@ -18,4 +18,9 @@
     <string name="search">Search</string>
     <string name="home">Home</string>
     <string name="create_a_new_post">Create a new post</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="post">Post</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
+    <string name="edit_your_profile">Edit your profile</string>
 </resources>

@@ -33,6 +33,9 @@
             android:exported="false" />
         <activity
             android:name=".activities.NewPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EditProfileActivity"
             android:exported="false"/>
     </application>
 
