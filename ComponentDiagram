@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T03:25:20.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="PWuhHczhi3kfRB5xlt8f" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T03:26:03.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="FL2DL7BUCWGDdd7v9CGq" version="20.5.3" type="github">
   <diagram id="Qh1MP1uJi68NOseYOob3" name="Page-1">
-    <mxGraphModel dx="2066" dy="2813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3585" dy="4955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lIPoM-DWAkw61tmXXipq-5" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 38px;&quot;&gt;Social Media App&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="lIPoM-DWAkw61tmXXipq-5" value="&lt;span style=&quot;font-size: 38px;&quot;&gt;&lt;b&gt;Sharing Job App&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="-450" width="320" height="260" as="geometry" />
         </mxCell>
         <mxCell id="lIPoM-DWAkw61tmXXipq-7" value="Sign In" style="swimlane;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
