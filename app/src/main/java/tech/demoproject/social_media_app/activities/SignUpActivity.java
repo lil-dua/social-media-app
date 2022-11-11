@@ -15,16 +15,22 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
+import java.util.HashMap;
 
 import tech.demoproject.social_media_app.R;
 import tech.demoproject.social_media_app.databinding.ActivitySignUpBinding;
+import tech.demoproject.social_media_app.utilities.Constants;
+import tech.demoproject.social_media_app.utilities.PreferenceManager;
 
 public class SignUpActivity extends AppCompatActivity {
 
     private ActivitySignUpBinding binding;
+    private PreferenceManager preferenceManager;
     private String encodeImage;
 
     @Override
@@ -35,7 +41,8 @@ public class SignUpActivity extends AppCompatActivity {
         //set binding
         binding = ActivitySignUpBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        //setup preference manager
+        preferenceManager = new PreferenceManager(getApplicationContext());
         //set event listeners
         setListeners();
     }
@@ -59,8 +66,32 @@ public class SignUpActivity extends AppCompatActivity {
 
     private void signUp() {
         loading(true);
-        startActivity(new Intent(getApplicationContext(),SignInActivity.class));
-        Toast.makeText(getApplicationContext(), "Sign up successfully!", Toast.LENGTH_SHORT).show();
+        FirebaseFirestore database = FirebaseFirestore.getInstance();
+        HashMap<String,Object> user = new HashMap<>();
+        user.put(Constants.KEY_NAME, binding.inputName.getText().toString());
+        user.put(Constants.KEY_EMAIL, binding.inputEmail.getText().toString());
+        user.put(Constants.KEY_STUDENT_ID, binding.inputStudentID.getText().toString());
+        user.put(Constants.KEY_PASSWORD,binding.inputPassword.getText().toString());
+        user.put(Constants.KEY_IMAGE,encodeImage);
+        database.collection(Constants.KEY_COLLECTION_USER)
+                //add information of user to Fire Store
+                .add(user)
+                .addOnSuccessListener(documentReference -> {
+                    loading(false);
+                    preferenceManager.putBoolean(Constants.KEY_IS_SIGNED_IN, true);
+                    preferenceManager.putString(Constants.KEY_USER_ID,documentReference.getId());
+                    preferenceManager.putString(Constants.KEY_NAME, binding.inputName.getText().toString());
+                    preferenceManager.putString(Constants.KEY_STUDENT_ID, binding.inputStudentID.getText().toString());
+                    preferenceManager.putString(Constants.KEY_IMAGE,encodeImage);
+                    //Access to Main Activity
+                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
+                })
+                .addOnFailureListener(exception ->{
+                    loading(false);
+                    showToast(exception.getMessage());
+                });
     }
     //show Toast
     private void showToast(String message){

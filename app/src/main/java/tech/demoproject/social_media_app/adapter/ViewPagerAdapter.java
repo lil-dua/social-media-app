@@ -8,7 +8,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 import tech.demoproject.social_media_app.fragment.Fragment_Home;
 import tech.demoproject.social_media_app.fragment.Fragment_Profile;
 import tech.demoproject.social_media_app.fragment.Fragment_Search;
-import tech.demoproject.social_media_app.fragment.Fragment_Setting;
+import tech.demoproject.social_media_app.fragment.Fragment_Notification;
 
 /***
  * Created by HoangRyan aka LilDua on 11/6/2022.
@@ -28,7 +28,7 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
             case 2:
                 return new Fragment_Search();
             case 3:
-                return new Fragment_Setting();
+                return new Fragment_Notification();
             case 0:
             default:
                 return new Fragment_Home();

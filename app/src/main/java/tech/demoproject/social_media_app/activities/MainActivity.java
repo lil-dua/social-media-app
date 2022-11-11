@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
                     tab.setIcon(R.drawable.ic_search_50);
                     break;
                 case 3:
-                    // fragment setting
-                    tab.setIcon(R.drawable.ic_setting);
+                    // fragment notification
+                    tab.setIcon(R.drawable.ic_notifications);
                     break;
             }
         })).attach();

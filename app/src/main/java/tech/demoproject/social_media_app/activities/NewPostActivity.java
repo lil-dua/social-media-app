@@ -25,6 +25,8 @@ public class NewPostActivity extends AppCompatActivity {
 
     private void setListeners() {
         binding.imageBack.setOnClickListener(v -> DialogCancel());
+        //done
+        binding.imageDone.setOnClickListener(v -> onBackPressed());
     }
 
     private void DialogCancel(){

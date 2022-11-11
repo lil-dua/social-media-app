@@ -42,15 +42,15 @@
             android:textStyle="bold"/>
 
         <EditText
-            android:id="@+id/inputStudentID"
+            android:id="@+id/inputEmail"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_45sdp"
             android:layout_marginTop="@dimen/_40sdp"
             android:background="@drawable/background_input"
-            android:hint="@string/student_id"
+            android:hint="@string/enter_email_or_student_id"
             android:imeOptions="actionNext"
             android:importantForAutofill="no"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
             android:textColor="@color/primary_text"
@@ -90,6 +90,7 @@
                 android:layout_width="@dimen/_25sdp"
                 android:layout_height="@dimen/_25sdp"
                 android:layout_gravity="center"
+                android:indeterminateTint="@color/primary"
                 android:visibility="invisible"/>
         </FrameLayout>
 

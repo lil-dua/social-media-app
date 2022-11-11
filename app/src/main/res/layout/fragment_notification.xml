@@ -12,7 +12,7 @@
         android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/_30sdp"
-        android:text="@string/setting"
+        android:text="@string/notification"
         android:textColor="@color/white"
         android:textSize="@dimen/_14ssp"
         android:textStyle="bold"

@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="language">
+        <item>English (US)</item>
+        <item>Vietnamese (VI)</item>
+    </string-array>
+    <string-array name="languageAlias">
+        <item>"en-US"</item>
+        <item>"vi-VI"</item>
+    </string-array>
+</resources>

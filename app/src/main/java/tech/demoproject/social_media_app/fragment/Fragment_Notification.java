@@ -14,10 +14,12 @@ import tech.demoproject.social_media_app.R;
 /***
  * Created by HoangRyan aka LilDua on 11/6/2022.
  */
-public class Fragment_Setting extends Fragment {
+public class Fragment_Notification extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_setting,container,false);
+
+        return inflater.inflate(R.layout.fragment_notification,container,false);
+
     }
 }
