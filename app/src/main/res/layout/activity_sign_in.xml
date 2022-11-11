@@ -94,16 +94,31 @@
                 android:visibility="invisible"/>
         </FrameLayout>
 
-
-        <TextView
-            android:id="@+id/textCreateNewAccount"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_30sdp"
-            android:text="@string/create_new_account"
-            android:textColor="@color/primary"
-            android:textSize="@dimen/_13ssp"
-            android:textStyle="bold"/>
+            android:layout_marginTop="@dimen/_24sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do you have any account?"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginEnd="@dimen/_4sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/textCreateNewAccount"/>
+            <TextView
+                android:id="@+id/textCreateNewAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="@string/sign_up"
+                android:textColor="@color/primary"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     </LinearLayout>
 
